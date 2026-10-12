@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object And Arrays</title>
+</head>
+<body>
+
+    <h2>About Riya</h2>
+
+    <script>
+
+        // OBJECT
+        var student = {
+            Name: "Riya",
+            Class: "8th",
+            Address: "Ginarg City, Mhow, Madhya Pradesh"
+        };
+
+        document.write("<h3>Student Details</h3>");
+        document.write("Name: " + student.Name + "<br>");
+        document.write("Class: " + student.Class + "<br>");
+        document.write("Address: " + student.Address + "<br>");
+
+        // ARRAY
+        var color = ["white", "black", "red", "green", "blue"];
+
+        document.write("<h3>My Favourite Colors</h3>");
+
+        document.write("<br>Before Poping the colors are: " + color.join("^"));
+
+        document.write("<br>My favorite color is : " + color[3]);
+
+        color.pop();
+
+        document.write("<br>After Poping the colors are : " + color.join("*"));
+
+    </script>
+
+</body>
+</html>
